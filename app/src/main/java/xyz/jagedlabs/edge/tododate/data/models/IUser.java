@@ -5,4 +5,12 @@ package xyz.jagedlabs.edge.tododate.data.models;
  */
 
 public interface IUser {
+
+    public long getUserId();
+    public String getUserEmail();
+    public long getEnrollementDate();
+    public boolean isPremiumUser();
+    public String getUsername();
+    public long getUserDoB();
+
 }

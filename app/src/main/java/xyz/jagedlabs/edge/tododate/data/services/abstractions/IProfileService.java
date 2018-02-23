@@ -7,7 +7,9 @@ import xyz.jagedlabs.edge.tododate.data.models.IUser;
  */
 
 public interface IProfileService {
+
     public IUser getUserProfile();
+
     public long getUserId();
     public String getUserEmail();
 }
