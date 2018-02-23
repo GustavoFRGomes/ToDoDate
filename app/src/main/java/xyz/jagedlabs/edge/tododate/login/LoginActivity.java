@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText usernameField;
     private EditText passwordField;
-    private Button loginButton;
+    Button loginButton;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
